@@ -1,0 +1,35 @@
+.btn {
+  padding: 15px 20px;
+  margin: 20px;
+  border-radius: $spacer;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  border: none;
+  text-transform: uppercase;
+  color: purple;
+  transition-property: translate();
+  transition-duration: 3s;
+  // transition-delay: 0.5s;
+
+  &:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transform: translateX(900px);
+  }
+
+  &__btn1 {
+    transition-timing-function: ease;
+  }
+
+  &__btn2 {
+    transition-timing-function: ease-in;
+  }
+  &__btn3 {
+    transition-timing-function: ease-out;
+  }
+  &__btn4 {
+    transition-timing-function: ease-in-out;
+  }
+
+  &__btn5 {
+    transition-timing-function: linear;
+  }
+}

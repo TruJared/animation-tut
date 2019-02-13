@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel ./src/views/index.html"
+    "dev": "parcel ./src/views/transitions/index.html"
   },
   "keywords": [],
   "author": "",
