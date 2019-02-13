@@ -1,0 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
+// for this tut... keep it in the center
+body {
+  background: color(background);
+  height: 50vh;
+  display: grid;
+  place-content: center;
+  place-items: center;
+}
